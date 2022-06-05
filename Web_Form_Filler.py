@@ -11,7 +11,7 @@ def my_function():
 
         global driver
         driver = webdriver.Chrome()  # Optional argument, if not specified will search path.
-        driver.get('https://gov.texas.gov/apps/contact/opinion.aspx');
+        driver.get('');
         time.sleep(1.5) # Let the user actually see something!
 
 
@@ -109,7 +109,7 @@ def my_function():
         ########## HERE IS WHERE YOU ENTER YOUR MESSAGE ##########
         ##########################################################
 
-        search_box_e.send_keys('Go fuck yourself Governor Abbott')
+        search_box_e.send_keys('')
         time.sleep(1.5)
 
 
